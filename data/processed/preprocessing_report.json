@@ -1,0 +1,98 @@
+[
+  {
+    "file": "2024-2025_player_stats_by_gameweek_all.csv",
+    "input_path": "data/2024-2025_player_stats_by_gameweek_all.csv",
+    "output_path": "data/processed/2024-2025_player_stats_by_gameweek_all_clean.csv",
+    "rows_before": 11567,
+    "rows_after": 11567,
+    "rows_dropped": 0,
+    "cols_before": 57,
+    "cols_after": 71,
+    "cols_removed": 0,
+    "cols_added": 14,
+    "empty_columns_dropped": [],
+    "required_columns_used": [
+      "season",
+      "gameweek",
+      "player_id"
+    ],
+    "sparse_columns_dropped": [],
+    "player_identity_rows_mapped": 11567,
+    "player_team_mapping_rows_mapped": 11567
+  },
+  {
+    "file": "2024-2025_team_stats_by_gameweek_long.csv",
+    "input_path": "data/2024-2025_team_stats_by_gameweek_long.csv",
+    "output_path": "data/processed/2024-2025_team_stats_by_gameweek_long_clean.csv",
+    "rows_before": 760,
+    "rows_after": 760,
+    "rows_dropped": 0,
+    "cols_before": 53,
+    "cols_after": 53,
+    "cols_removed": 0,
+    "cols_added": 0,
+    "empty_columns_dropped": [],
+    "required_columns_used": [
+      "season",
+      "gameweek",
+      "match_id",
+      "team",
+      "side"
+    ],
+    "sparse_columns_dropped": [],
+    "player_identity_rows_mapped": 0,
+    "player_team_mapping_rows_mapped": 0
+  },
+  {
+    "file": "2025-2026_player_stats_by_gameweek_all.csv",
+    "input_path": "data/2025-2026_player_stats_by_gameweek_all.csv",
+    "output_path": "data/processed/2025-2026_player_stats_by_gameweek_all_clean.csv",
+    "rows_before": 27459,
+    "rows_after": 27459,
+    "rows_dropped": 0,
+    "cols_before": 90,
+    "cols_after": 99,
+    "cols_removed": 0,
+    "cols_added": 9,
+    "empty_columns_dropped": [
+      "news_added",
+      "set_piece_threat",
+      "corners_and_indirect_freekicks_text",
+      "direct_freekicks_text",
+      "penalties_text"
+    ],
+    "required_columns_used": [
+      "season",
+      "gameweek",
+      "id"
+    ],
+    "sparse_columns_dropped": [],
+    "player_identity_rows_mapped": 27459,
+    "player_team_mapping_rows_mapped": 27459
+  },
+  {
+    "file": "2025-2026_team_stats_by_gameweek_long.csv",
+    "input_path": "data/2025-2026_team_stats_by_gameweek_long.csv",
+    "output_path": "data/processed/2025-2026_team_stats_by_gameweek_long_clean.csv",
+    "rows_before": 1048,
+    "rows_after": 923,
+    "rows_dropped": 125,
+    "cols_before": 59,
+    "cols_after": 58,
+    "cols_removed": 1,
+    "cols_added": 0,
+    "empty_columns_dropped": [],
+    "required_columns_used": [
+      "season",
+      "gameweek",
+      "match_id",
+      "team",
+      "side"
+    ],
+    "sparse_columns_dropped": [
+      "tackles_won_pct"
+    ],
+    "player_identity_rows_mapped": 0,
+    "player_team_mapping_rows_mapped": 0
+  }
+]
